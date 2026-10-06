@@ -26,7 +26,7 @@
 *Keterangan: Menampilkan proses login menggunakan user `helen_117` dengan password `awanda`, serta eksekusi perintah `USE toko_117;` yang berhasil (Database changed).*
 
 ### Langkah 3: Pengujian Isolasi Hak Akses (Akses Ditolak)
-![Uji Akses Ditolak Database Lain](img/03_test_akses_denied.png)  
+![Uji Akses Ditolak Database Lain]  
 *Keterangan: Menampilkan percobaan pengaksesan basis data lain (`USE kopma_117;`) saat menggunakan akun `helen_117` yang menghasilkan balasan `ERROR 1044 (42000): Access denied`.*
 
 ## 4. Jawaban Titik Analisis
