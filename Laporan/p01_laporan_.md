@@ -18,15 +18,15 @@
 ## 3. Hasil Langkah Percobaan
 
 ### Langkah 1: Membuka CLI MySQL, Membuat Database & User Pengembang
-![Login Root, Buat Database dan User](assets/01_login_root_db.png)  
+![Login Root, Buat Database dan User](img/01_login_root_db.png)  
 *Keterangan: Menampilkan layar terminal saat berhasil login menggunakan akun root, membuat basis data `toko_117`, serta membuat user `helen_117` beserta pemberian hak akses (`GRANT`).*
 
 ### Langkah 2: Pengujian Hak Akses Sukses (Login User helen_117)
-![Uji Akses Sukses Database Proyek](assets/02_test_akses_sukses.png)  
+![Uji Akses Sukses Database Proyek](img/02_test_akses_sukses.png)  
 *Keterangan: Menampilkan proses login menggunakan user `helen_117` dengan password `awanda`, serta eksekusi perintah `USE toko_117;` yang berhasil (Database changed).*
 
 ### Langkah 3: Pengujian Isolasi Hak Akses (Akses Ditolak)
-![Uji Akses Ditolak Database Lain](assets/03_test_akses_denied.png)  
+![Uji Akses Ditolak Database Lain](img/03_test_akses_denied.png)  
 *Keterangan: Menampilkan percobaan pengaksesan basis data lain (`USE kopma_117;`) saat menggunakan akun `helen_117` yang menghasilkan balasan `ERROR 1044 (42000): Access denied`.*
 
 ## 4. Jawaban Titik Analisis
