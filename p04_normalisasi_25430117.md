@@ -334,3 +334,15 @@ Normalisasi dimulai dari invoice UNF yang memiliki kelompok item berulang. Pada 
 Nilai subtotal item, total harga, total bayar, jumlah pesanan, dan hasil agregasi laporan dihitung saat dibutuhkan. `harga_snapshot` tetap disimpan untuk menjaga harga historis transaksi, sedangkan `stok_produk` disimpan sebagai keadaan persediaan terkini. ERD diperbarui dengan pemisahan `Pembayaran`, penambahan `Pengiriman`, dan usulan `alamat_kirim_snapshot`.
 
 **Catatan akademik:** Dokumen Pertemuan 2 tidak mencantumkan `no_resi`, `status_pembayaran`, atau `id_pembayaran` pada kamus data awal. Atribut tersebut secara eksplisit ditandai sebagai usulan pengembangan untuk memenuhi kebutuhan informasi dan proses bisnis yang telah ditulis pada dokumen sumber.
+
+---
+
+## 10. Pernyataan Penggunaan AI
+Dalam menyelesaikan laporan praktikum Modul 04 ini, praktikan memanfaatkan asisten AI (Google Antigravity / Gemini) sebagai sarana konsultasi teknis dalam memahami konsep normalisasi basis data (UNF, 1NF, 2NF, 3NF, BCNF), analisis dependensi fungsional, penyusunan diagram Mermaid ERD hasil normalisasi, serta verifikasi kelengkapan rubrik laporan. Seluruh analisis studi kasus personal HAS Online Store, identifikasi dependensi fungsional dari dokumen sumber, proses dekomposisi tabel, keputusan penyimpanan nilai turunan, dan kesimpulan disusun oleh praktikan sendiri berlandaskan hasil pengerjaan praktikum mandiri.
+
+---
+
+## 11. Bukti Git
+- **Tautan Repositori GitHub:** [https://github.com/helen12-svg/basisdata-25430117](https://github.com/helen12-svg/basisdata-25430117)
+- **Format Pesan Commit:** `p04: normalisasi basis data proyek toko daring has online store`
+- **Hash Commit:** *(akan diisi setelah commit dilakukan)*
